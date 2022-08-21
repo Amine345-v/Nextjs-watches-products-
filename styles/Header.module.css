@@ -1,0 +1,135 @@
+.n-wrap{
+    height: 16vh;
+    display: flex;
+    justify-content: space-between;
+ }
+ .nav{
+    width: 100%;
+   /* box-shadow: 0 3px 20px rgba(50, 49, 49, 0.4);*/
+    display: flex;
+ }
+ .logo{
+  flex: 1;
+  display: flex;
+  align-items: center;
+ 
+ }
+ .logo a{
+    text-decoration: none;
+ }
+ .logo:nth-child(1) img{
+  transition: 0.8s;
+ }
+ .logo:nth-child(1):hover img {
+    transform: rotate(-40deg);
+ }
+ .logo :nth-child(2){
+    transform: scale(0.75);
+    opacity: 0.8;
+    position: relative;
+    left: -15px;
+ }
+ 
+ .right{
+    display: flex;
+    flex: 2;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+ }
+ .links{
+  flex: 14;
+ }
+ 
+ .links ul{
+ display: flex;
+ gap: 3.5rem;
+ margin-right: 4rem;
+ list-style: none;
+ }
+ 
+ .links ul li a:hover{
+    color: rgb(93, 67, 67);
+    letter-spacing: 3px;
+ }
+
+ .activelink{
+    background-color: rgb(80, 73, 83);
+    text-decoration: none;
+    color: #eee;
+    font-weight: 600;
+    transition: 0.5s;
+    font-size: 1em;
+    padding:5px 9px;
+    border-radius: 20px;
+ }
+.link{
+    background-color: transparent;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    transition: 0.5s;
+    font-size: 1.1em;
+ }
+
+ .searchbar{
+    flex: 1;
+    margin-right: 10px;
+ }
+ .search{
+    text-decoration: none;
+    background-color: #b7c3d2;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    transition: 0.5s;
+    color:rgb(84, 80, 80);
+ 
+ }
+ 
+ .searchbar .search input{
+  display: none;
+  transition: 1.5s;
+  outline: 0!important;
+ }
+ .searchbar:hover .search input{
+    display: flex;
+    border-width: 0;
+    color: #fff;
+    background-color: #b7c3d2;
+   border-bottom: 3px solid #98a2b3;
+    
+   }
+
+ .searchbar .search:hover{
+    width: 270px;
+    border-radius: 25px;
+ }
+ .search:hover {
+    color: rgb(233, 226, 226);
+ }
+ .shop{
+    flex: 1;
+ }
+ 
+ .shop a{
+    text-decoration: none;
+    color:rgb(84, 80, 80);
+    background-color: #ada8ac;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .right i{
+    font-size: 24px;
+ }
+ .right i:hover{
+    color: rgb(255, 255, 255);
+ }

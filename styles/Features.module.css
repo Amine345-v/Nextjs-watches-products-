@@ -1,0 +1,78 @@
+.features {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #414b58;
+    bottom: 50px;
+    margin-left: 0;
+    align-items: center;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.features .total {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 0.6rem;
+}
+
+.features .total span {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    position: relative;
+    bottom: -7px;
+}
+
+.headphone {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: #98a2b3;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    border-right: 4px solid #98a2b3;
+    max-width: 500px;
+}
+
+.f-headphone :nth-child(2) {
+    color: rgb(179, 179, 179);
+    font-weight: 500;
+    font-size: 1rem;
+
+
+}
+
+.customer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 0 50px;
+    border-right: 4px solid #98a2b3;
+
+}
+
+.customer :nth-child(2) {
+    color: rgb(179, 179, 179);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.store {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+}
+
+.store :nth-child(2) {
+    color: rgb(179, 179, 179);
+    font-weight: 500;
+    font-size: 1rem;
+
+
+}
