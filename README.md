@@ -19,3 +19,7 @@ npm i -g @sanity/cli
 sanity init 
 sanity start
 ```
+in lib/client.js file
+set your projectid from sanity
+and your token
+
